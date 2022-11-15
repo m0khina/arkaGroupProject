@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Fira+Sans:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<header id="header">
+    <div class="container1">
+        <div class="header">
+            <img src="./img/logo_arka.png" alt="">
+            <div class="header-_menu">
+                <div class="header-_menu-_svg">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.544 0.888889C9.89552 5.94667 10.0866 7.43644 5.55952 8C10.0103 8.69067 10.0743 10.2489 10.544 15.1111C11.1633 10.2204 11.0428 8.75556 15.5294 8C11.008 7.44533 11.1595 5.94133 10.544 0.888889ZM3.16046 1.01956C2.81129 3.74844 2.91388 4.55289 0.470581 4.85689C2.87246 5.23022 2.90729 6.07022 3.16046 8.69422C3.49458 6.05422 3.42964 5.264 5.85129 4.85689C3.41082 4.55733 3.4927 3.74578 3.16046 1.01956ZM5.6094 8.68089C5.3647 10.5947 5.43623 11.1582 3.72329 11.3716C5.40799 11.6329 5.43152 12.2222 5.6094 14.0622C5.8447 12.2116 5.79764 11.6569 7.49552 11.3716C5.7854 11.1618 5.84282 10.5929 5.6094 8.68089Z" fill="#011F3A" stroke="#011F3A" stroke-width="0.621" stroke-linecap="square"/>
+                    </svg>
+                    <a href="">START YOUR DESIGN</a>
+                </div>
+                <a href="">ALL PRODUCTS</a>
+                <a href="">INSPIRATION</a>
+                <a href="">ABOUT</a>
+            </div>
+            <div class="header-_account">
+                <a href="">ACCOUNT</a>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path d="M0 0H24V24H0V0Z" fill="url(#pattern0)"/>
+                    <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_1_31" transform="scale(0.0138889)"/>
+                        </pattern>
+                        <image id="image0_1_31" width="72" height="72" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAM6SURBVHgB7ZtPctMwFMa/JzpZlwMwNcMFyrJlQTgBvQHdsio3AG5AbgBLVpAT4G46nWGBjyBm2JMlzRA/JAcnQCQ7si1q2frN9E8sP3n8Kr3vvWcXiEQikUgkEolEDBBGBB09+gTw1MEkG4+Dkukh8fK7iwkTnQuMhdXNFM6sLkfjIEE4czmfGXPIazkaBzHhsZOBoA/6xzhiUHJ6TIwvDhaSv17d178cYBRo5TKuhUw54mGV5Si2GLF4ajqu4sxljekIHKTk3Zr75PlH1HBARycqeaIpAoe1Ssmr+c6Alndh3F4LfLtOUYNQydA7DIKJcbvY5H2f7VXYq4n1MlsgYBicQqbGe7DK+28Zr0PoidUkM4SMTupMKHlX4SMxG632XUGayRuEjPiZmgeshWmms2TsM3XxvVieapmGiYT8nJkG2sh7yUbmmfg1AkTdbGocaCnvJds8SBaSlyE0BMw3a6/e95L37fR/oIL1HMHhR9438/xzMR2sg5F8n/K+Of2vT1ryGeEkjh7lvWS3FhP7B7Bbx1He1ytuP3nfXGLnSBGsg5B8Z3lX+85p9WiEeZ7+S35DeTfbVGBud6wlv9/B2l3epYu8by9jof/1mbO8p2hARcOsv/VZM3lHI/GxO0hLPtBPRbMF20p5nzgHaE11y5Xyfm4za7Ctkve0UUytdlA/Jd8abO3y3ryEqm3a960+ayTv1oSynuE8OLx3ckbmOmvzELAJg3ns07W8b+bFQOha3rfmQ8CDvJcMZAV1L+8lg3CQD3kvcXu7Izl9RYyX6B1sPiy4dSXguIKCaslK1+aYCTcHBdSSbSvvJe4xKJSWbJ538odslEmH8MqMyp47qRIaqVjfX5lhDvH5XiQySvy1O1R/RuTLC1VEnutP6kuqJPNtLiaz2vS/jW3H+HHQ+h9HlNLh2DCaMU2eWG+0ja0HvNRiAssLmG8QxfF8+cKHrQ+8OIiZz6vGifDMh60PPFXzlNSckPix7R5PDmJZc4L0Y9s9frZYTaZdVfC2sfWBpxVUtEVs7ztmEFWPtdvYds8d+GAhf+Dug/eg1Q2BExVXDllvHaIZaPK8Uqbb2EYikUgkEolEIv+LX2RGdy+72QKnAAAAAElFTkSuQmCC"/>
+                    </defs>
+                </svg>
+            </div>
+
+        </div>
+
+    </div>
+</header>
+<section id="hero">
+    <div class="container">
+        <div class="hero">
+            <div class="hero-_title">
+                <h1 class="hero-_title-_h1" data-aos="fade-right">Fast and easy custom <br> boxes your customers <br> will love</h1>
+                <h3 class="hero-_title-_h3" data-aos="fade-right">Fastest turnaround. Best prices instantly. <br> Dieline design help available.</h3>
+                <button class="hero-_title-_btn" data-aos="fade-right">START YOUR DESIGN</button>
+            </div>
+            <img class="hero-_img" src="./img/arka_img.png" alt=""  data-aos="fade-left">
+        </div>
+    </div>
+</section>
+<section id="logo">
+    <div class="container">
+        <div class="logo">
+            <div class="logo-_shopify">
+                <img src="./img/shopify.png" alt="">
+                <h4>Shopify Integrated</h4>
+            </div>
+            <div class="logo-_amazon">
+                <img src="./img/amazon.png" alt="">
+                <h4>Amazon Certified</h4>
+            </div>
+            <div class="logo-_eco">
+                <img src="./img/eco.png" alt="">
+                <h4>Eco-Friendly</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="js/all.min.js"></script>
+</body>
+</html>

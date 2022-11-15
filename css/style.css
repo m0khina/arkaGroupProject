@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container1 {
+  width: 96%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0;
+}
+#header .header-_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 48%;
+}
+#header .header-_menu-_svg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 26%;
+}
+#header .header-_menu-_svg a {
+  border-bottom: 1px solid #011F3A;
+}
+#header .header-_menu a {
+  color: #011F3A;
+  font-weight: 400;
+  font-size: 14px;
+}
+#header .header-_account {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 9%;
+}
+#header .header-_account a {
+  font-weight: 400;
+  font-size: 14px;
+  color: #011F3A;
+}
+
+#hero {
+  background: #F2AE4D;
+}
+#hero .hero {
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hero .hero-_title-_h1 {
+  font-weight: 400;
+  font-size: 48px;
+  color: #011F3A;
+}
+#hero .hero-_title-_h3 {
+  font-weight: 400;
+  font-size: 15px;
+  color: #011F3A;
+  padding: 32px 0 20px 0;
+}
+#hero .hero-_title-_btn {
+  background: #3D5675;
+  border-radius: 44px;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  padding: 17px 27px;
+}
+#hero .hero-_img {
+  margin-right: -71px;
+}
+
+#logo {
+  padding: 13px 0;
+}
+#logo .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+#logo .logo h4 {
+  padding: 0 0 0 10px;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  color: #A1A1A1;
+}
+#logo .logo-_shopify {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo .logo-_amazon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 10%;
+}
+#logo .logo-_eco {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,88 @@
+@import "reset";
+@import "verables";
+
+#header{
+  .header{
+    @include between;
+    padding: 18px 0;
+    &-_menu{
+      @include between;
+      width: 48%;
+      &-_svg{
+        @include between;
+        width: 26%;
+        a{
+          border-bottom: 1px solid #011F3A;
+        }
+      }
+      a{
+        color: $color;
+        font-weight: 400;
+        font-size: 14px;
+      }
+    }
+    &-_account{
+      a{
+        font-weight: 400;
+        font-size: 14px;
+        color: $color;
+      }
+      @include between;
+      width: 9%;
+    }
+  }
+}
+#hero{
+  background:  #F2AE4D;
+  .hero{
+    padding: 70px 0;
+    @include between;
+    &-_title{
+      &-_h1{
+        font-weight: 400;
+        font-size: 48px;
+        color: $color;
+      }
+      &-_h3{
+        font-weight: 400;
+        font-size: 15px;
+        color: $color;
+        padding: 32px 0 20px 0 ;
+      }
+      &-_btn{
+        @include btn;
+        padding: 17px 27px;
+      }
+    }
+    &-_img{
+      margin-right: -71px;
+    }
+  }
+}
+#logo{
+  padding: 13px 0;
+  .logo{
+    @include between;
+    width: 90%;
+    h4{
+      padding: 0 0 0 10px;
+      font-weight: 400;
+      font-size: 15px;
+      letter-spacing: 0.6px;
+      color: #A1A1A1;
+    }
+    &-_shopify{
+      width: 10%;
+      @include between;
+    }
+    &-_amazon{
+      @include between;
+      width: 10%;
+    }
+    &-_eco{
+      width: 10%;
+      @include between;
+    }
+  }
+}
+
