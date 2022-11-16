@@ -86,3 +86,78 @@
   }
 }
 
+
+#lets{
+  padding: 130px 0;
+  .lets{
+    h1{
+      font-weight: 700;
+      font-size: 31px;
+      line-height: 36px;
+      text-align: center;
+      color: $color;
+    }
+    &-_btn{
+      padding: 20px 0;
+      text-align: center;
+      &-_btn1{
+        margin: 0 10px 0 0;
+        @include btn;
+        padding: 10px 25px;
+      }
+      &-_btn2{
+        margin: 0 0 0 10px;
+        background: #FFFFFF;
+        border-radius: 44px;
+        border: none;
+        font-weight: 700;
+        font-size: 14px;
+        color: #3D5675;;
+        letter-spacing: 1.96px;
+        text-transform: uppercase;
+        padding: 10px 25px;
+      }
+    }
+  }
+}
+#footer{
+  padding: 50px 0;
+  background: #F2F3F4;
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    h2{
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 33px;
+      color: #3D5675;
+    }
+    &-_masseg{
+      &-_icons{
+        color: #3D5675;
+        i{
+          padding: 20px 0 0 0;
+        }
+      }
+    }
+    &-_input{
+      input{
+        margin: 10px 0 15px 0;
+        background: #FFFFFF;
+        border-radius: 34px;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        color: rgba(61, 86, 117, 0.4);
+        outline: none;
+        padding: 8px 30px 8px 20px;
+        border: none;
+      }
+      &-_btn{
+        @include btn;
+        padding: 10px 20px;
+      }
+    }
+  }
+}
