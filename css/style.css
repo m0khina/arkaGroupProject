@@ -4,7 +4,7 @@
 }
 
 .container1 {
-  width: 96%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -129,6 +129,86 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+#bloc .bloc {
+  height: 700px;
+  background: #72BDA3;
+}
+#bloc .bloc--bol {
+  padding: 60px 0;
+}
+#bloc .bloc--bol h1 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  text-align: center;
+  color: #011F3A;
+}
+#bloc .bloc--bloc2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#bloc .bloc--bloc2__drop h1 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.36px;
+}
+#bloc .bloc--bloc2__drop p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #3D5675;
+}
+#bloc .bloc--bloc2__one h1 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #011F3A;
+}
+#bloc .bloc--bloc2__one p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #3D5675;
+}
+#bloc .bloc--bloc2__two h1 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #011F3A;
+}
+#bloc .bloc--bloc2__two p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #3D5675;
+}
+#bloc .bloc--btn {
+  padding: 60px 0;
+}
+#bloc .bloc--btn button {
+  height: 44px;
+  background: #3D5675;
+  border-radius: 44px;
+  padding: 0 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1.96px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
 
 #lets {
   padding: 130px 0;
