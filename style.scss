@@ -1,88 +1,214 @@
 @import "reset";
 @import "verables";
 
-#header{
-  .header{
+#header {
+  .header {
     @include between;
     padding: 18px 0;
-    &-_menu{
+
+    &-_menu {
       @include between;
       width: 48%;
-      &-_svg{
+
+      &-_svg {
         @include between;
         width: 26%;
-        a{
+
+        a {
           border-bottom: 1px solid #011F3A;
         }
       }
-      a{
+
+      a {
         color: $color;
         font-weight: 400;
         font-size: 14px;
       }
     }
-    &-_account{
-      a{
+
+    &-_account {
+      a {
         font-weight: 400;
         font-size: 14px;
         color: $color;
       }
+
       @include between;
       width: 9%;
     }
   }
 }
-#hero{
-  background:  #F2AE4D;
-  .hero{
+
+#hero {
+  background: #F2AE4D;
+
+  .hero {
     padding: 70px 0;
     @include between;
-    &-_title{
-      &-_h1{
+
+    &-_title {
+      &-_h1 {
         font-weight: 400;
         font-size: 48px;
         color: $color;
       }
-      &-_h3{
+
+      &-_h3 {
         font-weight: 400;
         font-size: 15px;
         color: $color;
-        padding: 32px 0 20px 0 ;
+        padding: 32px 0 20px 0;
       }
-      &-_btn{
+
+      &-_btn {
         @include btn;
         padding: 17px 27px;
       }
     }
-    &-_img{
+
+    &-_img {
       margin-right: -71px;
     }
   }
 }
-#logo{
+
+#logo {
   padding: 13px 0;
-  .logo{
+
+  .logo {
     @include between;
     width: 90%;
-    h4{
+
+    h4 {
       padding: 0 0 0 10px;
       font-weight: 400;
       font-size: 15px;
       letter-spacing: 0.6px;
       color: #A1A1A1;
     }
-    &-_shopify{
+
+    &-_shopify {
       width: 10%;
       @include between;
     }
-    &-_amazon{
+
+    &-_amazon {
       @include between;
       width: 10%;
     }
-    &-_eco{
+
+    &-_eco {
       width: 10%;
       @include between;
     }
   }
 }
+
+#bloc {
+  .bloc {
+    height: 700px;
+    background: #72BDA3;
+    &--bol {
+      padding: 60px 0;
+
+      h1 {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 41px;
+        text-align: center;
+        color: #011F3A;
+      }
+    }
+
+
+    &--bloc2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+
+      &__drop {
+        h1 {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 23px;
+          text-align: center;
+          letter-spacing: 0.36px;
+
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 24px;
+          text-align: center;
+          color: #3D5675;
+        }
+      }
+
+      &__one {
+        h1 {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 23px;
+          text-align: center;
+          letter-spacing: 0.36px;
+          color: #011F3A;
+
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 24px;
+          text-align: center;
+          color: #3D5675;
+        }
+      }
+
+      &__two {
+        h1 {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 23px;
+          text-align: center;
+          letter-spacing: 0.36px;
+          color: #011F3A;
+
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 24px;
+          text-align: center;
+          color: #3D5675;
+        }
+      }
+
+
+    }
+
+    &--btn {
+      padding: 60px 0;
+
+      button {
+        height: 44px;
+        background: #3D5675;
+        border-radius: 44px;
+        padding: 0 10px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 1.96px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border: none;
+
+      }
+    }
+  }
+}
+
 
